@@ -73,7 +73,7 @@ console.log(printPrimeNos);
 console.log("");
 
 //###  Return all the palindromes in an array
-console.log("Return all the palindromes in an array");
+console.log("e) Return all the palindromes in an array");
 let listPalindrome = ["racecar", "yarn", "madam", "civic", "notebook"]
 
 let checkPalindrome = (function(listPalindrome){
@@ -106,11 +106,47 @@ let getMedian = (function (arr1, arr2) {
 })(medArr1, medArr2);
 
 console.log("");
-console.log("Median of Two Arrays", getMedian);
+console.log("f) Median of Two Arrays", getMedian);
+
+let dupArr = [1, 2, 3, 3, 4, 5, 6, 6, 7, 8];
 
 //###  Remove duplicates from an array
+let removeDuplicates = (function(inputArr){
+  let tracker = [];
+  // store first value in tracker
+  tracker.push(inputArr[0])
+  // loop through input array
+  inputArr.forEach(function(obj){
+    // check if tracker array contains element duplicate
+    if(!tracker.includes(obj)){
+      // if not push into array
+      tracker.push(obj)
+    }
+  })
+
+  // return the unique values array
+  return tracker;
+})(dupArr);
+console.log("");
+console.log("g) Remove duplicates from an array");
+console.log("input", dupArr);
+console.log("output", removeDuplicates);
+
 
 //###  Rotate an array by k times
+let roArr = [1, 2, 3, 4, 5, 6]
+let k = 4;
+
+console.log("");
+console.log(`h) Rotate an array by k = ${k} times`);
+console.log("Input", roArr);
+let rotateArr = (function(itmArr, kSteps) {
+  for(let i=0; i<kSteps; i++){
+    itmArr.unshift(itmArr.pop());
+  }
+  return itmArr;
+})(roArr, k);
+console.log("Output", rotateArr);
 
 //## https://medium.com/@reach2arunprakash/guvi-zen-class-javascript-warm-up-programming-problems-15973c74b87f
 
