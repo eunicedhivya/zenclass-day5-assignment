@@ -167,3 +167,5 @@ console.log("Output", rotateArr);
 ### outputs of Part A:
 
 ![Part A!](imgs/parta.png)
+
+## Part B (Function Sprint)

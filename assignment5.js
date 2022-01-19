@@ -1,5 +1,7 @@
 //## Do the below programs in anonymous function & IIFE
 
+/*
+
 //### Print odd numbers in an array
 console.log("a) Print odd numbers in an array in anonymous function & IIFE");
 let arrOddEven = [1,2,3,4,5,6,7,8,9,10,11,12];
@@ -148,7 +150,63 @@ let rotateArr = (function(itmArr, kSteps) {
 })(roArr, k);
 console.log("Output", rotateArr);
 
+*/
+
 //## https://medium.com/@reach2arunprakash/guvi-zen-class-javascript-warm-up-programming-problems-15973c74b87f
+
+// Write a function called “addFive”.
+// Given a number, “addFive” returns 5 added to that number.
+var num = 10;
+function addFive(no) { 
+  return no + 5
+}
+var result = addFive(num)
+
+console.log("add five to given number");
+console.log(addFive(5));
+console.log(addFive(0));
+console.log(addFive(-5));
+
+// Write a function called “getOpposite”.
+// Given a number, return its opposite
+var num = 5;
+function getOpposite(num) {
+  if(Number.isInteger(num)){
+    if(num !== 0){
+      return num * -1;
+    }else{
+      return 0
+    }
+  }else{
+    return -1;
+  }
+}
+var result = getOpposite(num)
+
+console.log("");
+console.log("Get opposite of given number");
+console.log(getOpposite(5));
+console.log(getOpposite(0));
+console.log(getOpposite(-5));
+console.log(getOpposite("5a"));
+console.log(getOpposite(5.5));
+
+
+// Fill in your code that takes an number minutes and converts it to seconds.
+
+var min = 5;
+function toSeconds(min) {
+  return min * 60;
+}
+var secs = toSeconds(min)
+
+console.log("");
+console.log("Minutes to Seconds");
+console.log("5mins =>", toSeconds(5)+"sec")
+console.log("3mins =>", toSeconds(3)+"sec")
+console.log("2mins =>", toSeconds(2)+"sec")
+
+
 
 //## Do the below programs in arrow functions
 
