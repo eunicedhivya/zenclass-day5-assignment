@@ -10,4 +10,4 @@
 
 ## Part C: Do the below programs in arrow functions
 
-[functions & IIFE code](function-sprint.md)
+[Arrow function code](arrow-function.md)
