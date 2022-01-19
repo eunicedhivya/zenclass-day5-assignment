@@ -63,6 +63,10 @@ console.log("3mins =>", toSeconds(3)+"sec")
 console.log("2mins =>", toSeconds(2)+"sec")
 ```
 
+### output:
+
+![Script 3!](imgs/sprint/3.png)
+
 ### 4. Create a function that takes a string and returns it as an integer.
 
 ```
@@ -78,6 +82,10 @@ console.log('toInteger("6") =>', toInteger("6"))
 console.log('toInteger("1000") =>', toInteger("1000"))
 console.log('toInteger("12") =>', toInteger("12"))
 ```
+
+### output:
+
+![Script 4!](imgs/sprint/4.png)
 
 ### 5. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 
@@ -95,9 +103,14 @@ console.log('nextNumber(9) =>', nextNumber(9))
 console.log('nextNumber(-3) =>', nextNumber(-3))
 ```
 
+### output:
+
+![Script 5!](imgs/sprint/5.png)
+
 ### 6. Create a function that takes an array and returns the first element.
 
 ```
+
 var arr = [1, 2, 3];
 function getFirstElement(arr) {
 return arr[0];
@@ -109,6 +122,10 @@ console.log('getFirstElement([1,2,3]) =>', getFirstElement([1,2,3]))
 console.log('getFirstElement([80,5,100]) =>', getFirstElement([80,5,100]))
 console.log('getFirstElement([-500, 0, 50]) =>', getFirstElement([-500, 0, 50]))
 ```
+
+### output:
+
+![Script 6!](imgs/sprint/6.png)
 
 ### 7. Convert Hours into Seconds
 
@@ -125,6 +142,10 @@ console.log('hourToSeconds(10) =>', hourToSeconds(10))
 console.log('hourToSeconds(24) =>', hourToSeconds(24))
 ```
 
+### output:
+
+![Script 7!](imgs/sprint/7.png)
+
 ### 8. perimeter of a rectangle. formula p = 2(w + L)
 
 ```
@@ -139,16 +160,20 @@ console.log('findPerimeter(20, 10) =>', findPerimeter(20, 10))
 console.log('findPerimeter(2, 9) =>', findPerimeter(2, 9))
 ```
 
+### output:
+
+![Script 8!](imgs/sprint/8.png)
+
 ### 9. Less Than 100? Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
 
 ```
 function lessThan100(num1,num2) {
-let sum = num1 + num2;
-if(sum > 100){
-return false;
-}else{
-return true;
-}
+    let sum = num1 + num2;
+    if(sum > 100){
+        return false;
+    }else{
+        return true;
+    }
 }
 
 console.log("");
@@ -157,11 +182,15 @@ console.log('lessThan100(22, 15) =>', lessThan100(22, 15))
 console.log('lessThan100(83, 34) =>', lessThan100(83, 34))
 ```
 
+### output:
+
+![Script 9!](imgs/sprint/9.png)
+
 ### 10. There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
 
 ```
 function remainder(num1,num2) {
-return num1 % num2;
+    return num1 % num2;
 }
 
 console.log("");
@@ -172,13 +201,17 @@ console.log('remainder(-9, 45) =>', remainder(-9, 45))
 console.log('remainder(5, 5) =>', remainder(5, 5))
 ```
 
+### output:
+
+![Script 10!](imgs/sprint/10.png)
+
 ### 11. MacDonald is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
 
 ```
 var turkeyLeg = 2, horseLeg = 4 , pigsLeg = 4;
 
 function CountAnimals(tur,horse,pigs) {
-return (tur*turkeyLeg) + (horse * horseLeg) + (pigs \* pigsLeg);
+    return (tur*turkeyLeg) + (horse * horseLeg) + (pigs \* pigsLeg);
 }
 
 console.log("");
@@ -187,6 +220,10 @@ console.log('CountAnimals(2, 3, 5) =>', CountAnimals(2, 3, 5))
 console.log('CountAnimals(1, 2, 3) =>', CountAnimals(1, 2, 3))
 console.log('CountAnimals(5, 2, 8) =>', CountAnimals(5, 2, 8))
 ```
+
+### output:
+
+![Script 11!](imgs/sprint/11.png)
 
 ### 12. Frames Per Second Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
 
@@ -203,6 +240,10 @@ console.log('frames(1, 1) =>', frames(1, 1))
 console.log('frames(10, 1) =>', frames(10, 1))
 console.log('frames(10, 25) =>', frames(10, 25))
 ```
+
+### output:
+
+![Script 12!](imgs/sprint/12.png)
 
 ### 13. Check if an Integer is Divisible By Five. Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
 
@@ -221,6 +262,10 @@ console.log('divisibleByFive(5) =>', divisibleByFive(5))
 console.log('divisibleByFive(-55) =>', divisibleByFive(-55))
 console.log('divisibleByFive(37) =>', divisibleByFive(37))
 ```
+
+### output:
+
+![Script 13!](imgs/sprint/13.png)
 
 ### 14. Write a function called “isEven”. Given a number, “isEven” returns whether it is even.
 
@@ -245,6 +290,10 @@ console.log('isEven(11) =>', isEven(11))
 console.log('isEven(11h) =>', isEven("11h"))
 ```
 
+### output:
+
+![Script 14!](imgs/sprint/14.png)
+
 ### 15. Write a function called “areBothOdd”. Given 2 numbers, “areBothOdd” returns whether or not both of the given numbers are odd.
 
 ```
@@ -264,6 +313,10 @@ console.log('areBothOdd(2, 3) =>', areBothOdd(2, 3))
 console.log('areBothOdd(0, 0) =>', areBothOdd(0, 0))
 ```
 
+### output:
+
+![Script 15!](imgs/sprint/15.png)
+
 ### 16. Write a function called “getFullName”. Given a first and a last name, “getFullName” returns a single string with the given first and last names separated by a single space.
 
 ```
@@ -282,6 +335,10 @@ console.log('getFullName("GUVI", ) =>', getFullName("GUVI", ""))
 console.log('getFullName("" , "GEEK") =>', getFullName("" , "GEEK"))
 console.log('getFullName("" , "") =>', getFullName("" , ""))
 ```
+
+### output:
+
+![Script 16!](imgs/sprint/16.png)
 
 ### 17. Write a function called “getLengthOfWord”. Given a word, “getLengthOfWord” returns the length of the given word.
 
@@ -307,6 +364,10 @@ console.log('getLengthOfWord(9) =>', getLengthOfWord(9))
 console.log("");
 ```
 
+### output:
+
+![Script 17!](imgs/sprint/17.png)
+
 ### 18. Create a function to calculate the distance between two points defined by their x, y coordinates
 
 ```
@@ -321,6 +382,10 @@ console.log("distance =", getDistance(100, 100, 400, 300));
 console.log("");
 ```
 
+### output:
+
+![Script 18!](imgs/sprint/18.png)
+
 ### 19. Write a function called “getNthElement”. Given an array and an integer, “getNthElement” returns the element at the given integer, within the given array. If the array has a length of 0, it should return ‘undefined’.
 
 ```
@@ -332,6 +397,10 @@ console.log("19. getNthElement", getNthElement([1, 3, 5], 1))
 console.log("");
 ```
 
+### output:
+
+![Script 19!](imgs/sprint/19.png)
+
 ### 20. Write a function called “getLastElement”. Given an array, “getLastElement” returns the last element of the given array. If the given array has a length of 0, it should return ‘-1’.
 
 ```
@@ -342,6 +411,10 @@ function getLastElement(array){
 console.log("20. getLastElement", getLastElement([1, 2, 3, 4]));
 console.log("");
 ```
+
+### output:
+
+![Script 20!](imgs/sprint/20.png)
 
 ### 21. Write a function called “getProperty”. Given an object and a key, “getProperty” returns the value of the property at the given key. If there is no property at the given key, it should return undefined.
 
@@ -359,6 +432,10 @@ console.log("getProperty(obj, 'dummykey')", getProperty(obj, 'dummykey'));
 console.log("");
 ```
 
+### output:
+
+![Script 21!](imgs/sprint/21.png)
+
 ### 22. Write a function called “addProperty”. Given an object and a key, “addProperty” adds a new property on the given object with a value of true.
 
 ```
@@ -373,6 +450,10 @@ console.log("22. addProperty");
 console.log("addProperty(obj2, mykey)", addProperty(obj, "mykey"));
 console.log("");
 ```
+
+### output:
+
+![Script 22!](imgs/sprint/22.png)
 
 ### 23. Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers.
 
@@ -396,6 +477,10 @@ console.log(ar2(pos_neg_arr));
 console.log("");
 ```
 
+### output:
+
+![Script 23!](imgs/sprint/23.png)
+
 ### 24. Create a function that receives an array of numbers and returns an array containing only the positive numbers
 
 ```
@@ -415,6 +500,10 @@ console.log(getPositives(pos_neg_arr2));
 console.log("");
 ```
 
+### output:
+
+![Script 24!](imgs/sprint/24.png)
+
 ### 25. Find the maximum number in an array of numbers
 
 ```
@@ -430,6 +519,10 @@ console.log("Max", findMax(maxValArr));
 console.log("");
 ```
 
+### output:
+
+![Script 25!](imgs/sprint/25.png)
+
 ### 26. Reverse a string
 
 ```
@@ -440,3 +533,7 @@ console.log("26. Reverse a string");
 console.log(reverseString("JavaScript"));
 console.log("");
 ```
+
+### output:
+
+![Script 26!](imgs/sprint/26.png)
